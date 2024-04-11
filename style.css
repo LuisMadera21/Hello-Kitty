@@ -1,0 +1,36 @@
+/* Estilos CSS para el cuerpo de la página */
+body{
+    margin: 0;
+    padding: 0;
+    background: url(hello.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+    text-shadow: 2px 2px 4px #ac5975;
+}
+
+/* Estilos CSS para el encabezado */
+header {
+    color: #e4acac;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif; /* Fuente similar a la utilizada en el logo de Hello Kitty */
+    text-transform: uppercase; /* Mayúsculas */
+    letter-spacing: 3px; /* Espaciado entre letras */
+    color: #000000; /* Color rosa */
+}
+
+.hello-kitty-section img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-right: auto; /* Establece el margen derecho a automático */
+    max-width: 100%; /* Ajusta la imagen para que no sobrepase su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
